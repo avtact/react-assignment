@@ -1,0 +1,67 @@
+.uploadOuter {
+    strong {
+      padding: 0 10px
+    }
+  }
+  .dragBox {
+    width: 370px;
+    height: 370px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    line-height: 365px;
+    color: #ffffff;
+    border: 2px dashed #ccc;
+    display: inline-block;
+    transition: transform 0.3s;
+    input[type="file"] {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      top: 0;
+      left: 0;
+    }
+  }
+  .draging {
+    transform: scale(1.1);
+  }
+  #preview {
+    text-align: center;
+    img {
+      max-width: 100%
+    }
+  }
+  .create .form-group{
+    width: 362px!important;
+  }
+  .publish{
+    width: 216px;
+    margin-bottom: 30px;
+  }
+  .create button{
+    width: 179px;
+  }
+  .create .btn-cancel{
+    width: 167px;
+    border:1px solid #ffffff !important;
+    color: white !important;
+    padding: 10px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    margin-top: 20px;
+    margin-right: 14px;
+  }
+  .uplaosDrop{
+    border: dashed !important;
+    /* padding-top: 60px !important; */
+    margin-top: -20px;
+    border-color: #b7b0b0 !important;
+    border-radius: 4px !important;
+    width: 370px !important;
+    height: 370px !important;
+    background-color: rgba(34, 73, 87, 1) !important;
+    color: #b7b0b0 !important;
+    text-align: center !important;
+    /* line-height: 165px !important; */
+  }

@@ -1,0 +1,38 @@
+
+.container-background {
+    background-color: #093545;
+    height: 56.5vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #093545;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .movie-list {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+
+ 
+.btn-login {
+    background-color: rgba(43, 209, 126, 1) !important;
+    color: white !important;
+    padding: 10px  !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+     margin-top: 20px; 
+    
+  }
+
+ .bottom-image{
+    bottom: 0;
+ }

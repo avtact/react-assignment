@@ -1,0 +1,51 @@
+.my-movies{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.card-img-top{
+    height : 238px!important;
+    border-radius: 10px!important;
+}
+@media only screen and (min-width:300px) and (max-width:530px) {
+    .card-img-top{
+        height: 158px!important;;
+    } 
+}
+.logout{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.dashboard-cards .card{
+    border-radius: 14px;
+    background-color: #092C39;
+}
+.pagination{
+    justify-content: center !important;
+    margin-top: 40px !important;
+}
+
+.active{
+    background-color: rgba(43, 209, 126, 1) !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    border-color: rgba(43, 209, 126, 1) !important;
+    border-radius: 4px !important;
+    margin: 5px;
+    width: 40px !important;
+    height: 40px !important;
+    border: none!important;
+}
+.non-active{
+    background-color: rgba(9, 44, 57, 1) !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    border-color: rgba(9, 44, 57, 1) !important;
+    border-radius: 4px !important;
+    margin: 5px;
+    padding-left: 5px !important;
+    width: 40px !important;
+    height: 40px !important;
+    border: none!important;
+}
