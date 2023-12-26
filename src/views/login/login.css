@@ -78,6 +78,7 @@
     align-items: center;
      margin-top: 20px; 
      width:100%;
+     font-weight: 700 !important;
   }
 
  .bottom-image{

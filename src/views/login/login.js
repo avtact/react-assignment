@@ -75,7 +75,7 @@ export default function Login() {
                 <label className='form-check-label' htmlFor='rememberMe'>Remember me</label>
               </div>
               <div className='text-center'>
-                <button type='submit' onClick={onSubmitLogin} className='btn btn-login'><strong>Login</strong></button>
+                <button type='submit' onClick={onSubmitLogin}  className='btn btn-login'><strong>Login</strong></button>
                 <div>
                   <span style={{color:"red",fontSize:12}}>{err?err:EmailIDErr?EmailIDErr:""}</span>
                 </div>

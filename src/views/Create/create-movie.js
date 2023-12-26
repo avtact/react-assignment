@@ -61,7 +61,7 @@ export default function Create() {
               toast.success(res?.message, { autoClose: 2000, position: toast.POSITION.TOP_RIGHT });
             }
             setTimeout(() => {
-                navigate("/dashboard");
+                // navigate("/dashboard");
             }, 2500);
           })
     }
