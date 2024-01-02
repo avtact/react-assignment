@@ -7,9 +7,7 @@ import { API_CALLS } from '../../services/Api/apiCalls';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
-export default function Create() {
-    const {acceptedFiles} = useDropzone();
-    
+export default function Create() {    
     const previewStyle = {
         marginTop: '20px',
         maxWidth: '100%',

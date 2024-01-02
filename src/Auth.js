@@ -8,7 +8,6 @@ export default function RequireAuth({ children }) {
     } else {
       isAuthenticated = false;
     }
-    const navigate = useNavigate();
     const location = useLocation();
     return isAuthenticated === true ? (
       children

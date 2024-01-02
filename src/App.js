@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Login from './views/login/login'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
@@ -8,7 +8,6 @@ import Dashboard from './views/dashboard/dashboard';
 import Empty from './views/Empty-dashboard/Empty';
 import Create from './views/Create/create-movie';
 import Edit from './views/Edit/Edit';
-import Auth from './Auth';
 import RequireAuth from './Auth';
 
 function App() {

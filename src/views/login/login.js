@@ -9,9 +9,7 @@ export default function Login() {
   const [EmailID,setEmailId]=useState("");
   const [EmailIDErr,setEmailIdErr]=useState("");
   const [password,setPassword]=useState("");
-  const [passwordErr,setPasswordErr]=useState("");
   const [err,setErr]=useState("");
-
   const navigate=useNavigate();
   const onSubmitLogin=(e)=>{
     e.preventDefault();
@@ -54,7 +52,6 @@ export default function Login() {
             <div className='sign-in' >Sign In</div>
             <form>
               <div className='form-group'>
-                
                 <input type='email' onChange={(e)=>{
                   setErr("")
                   setEmailIdErr("");
@@ -62,14 +59,11 @@ export default function Login() {
                 }} value={EmailID} className='form-control shadow-none' placeholder='Email' />
               </div>
               <div className='form-group'>
-                
                 <input type='password' onChange={(e)=>{
                   setErr("")
                   setPassword(e.target.value);
                 }} value={password} className='form-control shadow-none' placeholder='Password' />
               </div>
-             
-           
             <div className='form-group form-check d-flex justify-content-center'>
                 <input type='checkbox' className='form-check-input ' id='rememberMe' />
                 <label className='form-check-label' htmlFor='rememberMe'>Remember me</label>
@@ -81,12 +75,9 @@ export default function Login() {
                 </div>
               </div>
               </form>
-             
           </div>
         </div>
-        
       </div>
-    
     </div>
     <div className='container-fluid' style={{backgroundColor:'#093545'}}>
       <div className='row'>
